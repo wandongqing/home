@@ -1,0 +1,77 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.box{
+	height:1800px;
+}
+.clothing{
+	width:1900px;
+	height:1500px;
+	background:white;
+	
+}
+.clothing>.one{
+	width:1900px;
+	height:500px;
+	background-image: url(../img/app1.jpg);
+	position:relative;
+	background-size: 1900px 800px;
+	top:20px;
+	background-attachment: fixed;
+}
+.clothing>.one>img{
+	width:400px;
+	height:300px;
+	margin-top:200px;
+	left:-20px;
+}
+.clothing>.quzi{
+	width:1900px;
+	height:600px;
+	background:white;
+	margin: 0 auto;
+	position: relative;
+	top:150px;
+	left:40px;
+	overflow: hidden;
+}
+.clothing>.quzi>div{
+	height:800px;
+	width:200px;
+	overflow: hidden;
+	float:left;
+}
+
+.quname{
+	z-index:10;
+	position: absolute;
+	top:0px;
+	font-size:30px;
+	width: 30px;
+	color:#D8B703;
+	padding-left:70px ;
+}
+.mani{
+	z-index:10;
+	position: absolute;
+	top:500px;
+	font-size:30px;
+	width: 20px;
+	
+}
+.clothing>p{
+	font-size:40px;
+	position: relative;
+	top:50px;
+	left:770px;
+}
+.clothing>span{
+	font-size:20px;
+	position: relative;
+	top:60px;
+	display: block;
+	left:750px;
+	letter-spacing: 15px;
+}

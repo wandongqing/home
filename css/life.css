@@ -1,0 +1,212 @@
+.box{
+	width:1900px;
+	height:3000px;
+}
+.clothing{
+	width:1900px;
+	height:2300px;
+	position: relative;
+}
+.clothing>.left{
+	width:500px;
+	height:400px;
+	position:fixed;
+	
+}
+.clothing>.left>ul{
+	position: absolute;
+	top:200px;
+}
+.clothing>.left>ul>li{
+	list-style: none;
+	width:300px;
+	float: right;
+	font-size:25px;
+}
+
+.clothing>.left>ul>li>ul{
+	list-style: none;
+	width:300px;
+	color:gray;
+	font-size: 15px;
+	display: none;
+}
+.clothing>.left>.de{
+	width:100px;
+	height:50px;
+	z-index: 5;
+	position: absolute;
+	color:black;
+	top:210px;
+	left:320px;
+}
+.clothing>.left>.nv{
+	width:500px;
+	height:30px;
+	z-index: 5;
+	position: absolute;
+	color:white;
+	background:black;
+	top:370px;
+}
+.clothing>.left>.nv>span{
+	left:200px;
+	position: absolute;
+	color:#999999;
+}
+.clothing>.right{
+	width:1300px;
+	height:2000px;
+	position: absolute;
+	left:510px;
+}
+.clothing>.right>div:nth-of-type(1){
+	width:1300px;
+	height:2000px;
+	position: absolute;
+	display: block;
+}
+.clothing>.right>div:nth-of-type(2){
+	width:1300px;
+	height:2000px;
+	position: absolute;
+	display: none;
+}
+.clothing>.right>div:nth-of-type(3){
+	width:1300px;
+	height:2000px;
+	position: absolute;
+	display: none;
+}
+.clothing>.right>div:nth-of-type(4){
+	width:1300px;
+	height:2000px;
+	position: absolute;
+	display: none;
+}
+
+.clothing>.right>div>div:nth-of-type(1){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:20px;
+}
+.clothing>.right>div>div:nth-of-type(2){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:20px;
+	left:450px;
+}
+
+.clothing>.right>div>div:nth-of-type(3){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:20px;
+	left:900px;
+}
+
+
+.clothing>.right>div>div:nth-of-type(4){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:550px;
+}
+.clothing>.right>div>div:nth-of-type(5){
+	width:380px;
+	height:500px;
+	position: absolute;
+
+	top:550px;
+	left:450px;
+}
+
+.clothing>.right>div>div:nth-of-type(6){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:550px;
+	left:900px;
+}
+
+
+
+.clothing>.right>div>div:nth-of-type(7){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1100px;
+}
+.clothing>.right>div>div:nth-of-type(8){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1100px;
+	left:450px;
+}
+
+.clothing>.right>div>div:nth-of-type(9){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1100px;
+	left:900px;
+}
+
+.clothing>.right>div>div:nth-of-type(10){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1650px;
+}
+.clothing>.right>div>div:nth-of-type(11){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1650px;
+	left:450px;
+}
+
+.clothing>.right>div>div:nth-of-type(12){
+	width:380px;
+	height:500px;
+	position: absolute;
+	top:1650px;
+	left:900px;
+}
+
+
+
+
+.clothing>.right>div>div>div{
+	width:380px;
+	height:300px;
+	overflow: hidden;
+	
+}
+.clothing>.right>div>div>div>img{
+	width:250px;
+	height:250px;
+	margin-left:35px;
+	transform: rotate(0deg);
+	transition: transform 1s linear;
+}
+.clothing>.right>div>div>div:hover>img{
+	transform: rotate(20deg);
+	transition: transform 1s linear;
+}
+.clothing>.right>div>div>p{
+	font-size:20px;
+	text-align: center;
+	line-height:50px;
+}
+.clothing>.right>div>div>span{
+	font-size:30px;
+	text-align: center;
+	display: block;
+	line-height:50px;
+	color:#D8B703;
+}
+

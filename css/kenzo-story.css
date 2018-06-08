@@ -1,0 +1,147 @@
+*{margin: 0;padding: 0;}
+.d{width: 100%;height: 10px;background: url(../img/kenzo-story/2018-05-10_170742.png);position: fixed;z-index: 1001;}
+.box{width: 100%;height: 10px;background: url(../img/kenzo-story/2018-05-10_170742.png);position: fixed;z-index: 999;top: 964px;}
+.box>img{float: right;position: relative;top: -26px;}
+.box0{width: 10px;height: 964px;background: url(../img/kenzo-story/2018-05-10_170805.png);position: fixed;z-index: 1000;}
+.box0>img{position: relative;top: 949px;}
+.box1{width: 10px;height: 964px;background: url(../img/kenzo-story/2018-05-10_170805.png);position: fixed;z-index: 1001;left: 1893px;}
+.box1>img{position: relative;left: -17px;}
+.gg{width: 1850px;height: 15520px;margin: 0px auto;overflow: hidden;position: relative;top: 10px;left: -5px;}
+#Fiexd{position: fixed;left: 92%;top: 38%;width: 110px;height: 450px;border-left: 1px white dotted;z-index: 999;text-align: center;line-height: 32px;}
+#Fiexd>a{text-decoration:none;color: white;}
+.gg>.navigation{width: 100%;height: 160px;position: relative;}
+.gg>.navigation>.home{width: 131px;height: 52px;margin-top: 35px;margin-left: 48%;background: url(../img/kenzo-story/2018-05-10_151032.png);}
+.gg>.navigation>.home>a{width: 90px;height: 29px;float: left;text-decoration:none;}  
+.gg>.navigation>.homes{width: 435px;height: 48px;margin-top: 20px;margin-left: 40%;font-size: 13px;}
+.gg>.navigation>.homes>ul{width: 435px;height: 48px;text-align: center;padding: 0px;}
+.gg>.navigation>.homes>ul>li{list-style: none;height: 48px;line-height: 30px;width: 72px;float: left;}
+.gg>.navigation>.homes>ul>li>a{width: 100%;height: 100%;text-decoration:none;color: #808080;}
+.gg>.navigation>.homes>ul>li:hover>a{color: red;}
+.gg>.navigation>.homes>ul>li:hover>ul{display: block;}
+.gg>.navigation>.homes>ul>li>ul{padding: 0px;width: 350px;height: 30px;position: absolute;font-size: 13px;z-index: 1;text-align: center;display: none;}
+.gg>.navigation>.homes>ul>li:nth-of-type(1)>ul{left: 33%;}
+.gg>.navigation>.homes>ul>li:nth-of-type(2)>ul{left: 37%;}
+.gg>.navigation>.homes>ul>li>ul>li{float: left;width: 60px;text-align: center;list-style: none;margin-left: 15px;position: relative;}
+.gg>.navigation>.homes>ul>li>ul>li:nth-of-type(5){position: absolute;left: 30.5%;top: 25px;}
+.gg>.navigation>.homes>ul>li>ul>li>a{width: 100%;height: 100%;text-decoration:none;color: #808080;}
+.gg>.navigation>.homes>ul>li:nth-of-type(1)>ul>li>span{position: relative;display: none;height: 15px;line-height: 15px;width: 60px;top: -7px;background: #7C6AA6;text-align: center;border-radius:45px ;color: white;}
+.gg>.navigation>.homes>ul>li:nth-of-type(1)>ul>li:hover>span{display: block;}
+.gg>.navigation>.homes>ul>li>ul>li>a:hover{color: red;}
+.gg>.navigation>.homebou{width: 142px;height: 21px;float: right;color: #808080;font-size: 13px;line-height: 21px;}
+.gg>.navigation>.homebou>span:hover{color: black;}
+.gg>.navigation>.homebou>a{text-decoration:none;color: #808080;}
+.gg>.navigation>.homebou>a:hover{color: black;}
+.gg>.navigation>.homebou>a:nth-of-type(1){margin-left:15px;}
+.gg>.center{width: 1800px;height: 15900px;margin: 0px auto;}
+.gg>.center>.panel-1{width: 100%;height: 435px;overflow: hidden;}
+.gg>.center>.panel-1>.bg1{width: 100%;height: 970px;background-image: url(../img/kenzo-story/panel-bg-1.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; text-align: center;}
+.gg>.center>.panel-1>.bg1>img{position: absolute;left: 44%;top: 260px;width: 250px;height: 35px;}
+.gg>.center>.panel-1>.bg1>span{color: white;position: relative;top: 150px;left: 25px;line-height: 35px;}
+.gg>.center>.panel-2{width: 100%;height: 786px;overflow: hidden;}
+.gg>.center>.panel-2>.bg2{width: 100%;height: 970px;background-image: url(../img/kenzo-story/panel-bg-2.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-2>.bg2>p{color: white;position: relative;left: 48%;top: 100px;font-size: 40px;}
+.gg>.center>.panel-2>.bg2>span{color: white;position: relative;top: 180px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-2>.bg2>.img{width: 310px;height: 410px;position: relative;left: 55%;top: 50px;}
+.img>img{position: absolute;	}
+.img>img:nth-of-type(2){width: 250px;height: 160px;left: -15px;top: 50px;}
+.img>img:nth-of-type(3){width: 250px;height: 160px;left: 15px;top: 20px;}
+.gg>.center>.panel-3{width: 100%;height: 598px;overflow: hidden;overflow-y:scroll;position: relative;}
+.gg>.center>.panel-3>.bg3{width: 100%;height: 650px;background-image: url(../img/kenzo-story/panel-bg-3.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-3>.bg3>.img{width: 310px;height: 410px;position: relative;left: 55%;top: 210px;}
+.gg>.center>.panel-3>.bg3>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-3>.bg3>span{color: white;position: absolute;top: 180px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-4{width: 100%;height: 838px;overflow: hidden;position: relative;}
+.gg>.center>.panel-4>.bg4{width: 100%;height: 970px;background-image: url(../img/kenzo-story/panel-bg-4.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-4>.bg4>.img{width: 310px;height: 410px;position: relative;left: 54%;top: 210px;}
+.gg>.center>.panel-4>.bg4>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-4>.bg4>span{color: white;position: absolute;top: 180px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-4>.bg4>.tv{width: 235px;height: 135px;position: absolute;left: 50%;top: 80%;}
+.gg>.center>.panel-4>.bg4>.tv>video{width: 100%;height: 100%;}
+.gg>.center>.panel-5{width: 100%;height: 838px;overflow: hidden;position: relative;}
+.gg>.center>.panel-5>.bg2011{width: 100%;height: 970px;background-image: url(../img/kenzo-story/panel-bg-5.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-5>.bg2011>.img{width: 310px;height: 410px;position: relative;left: 54%;top: 210px;}
+.gg>.center>.panel-5>.bg2011>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-5>.bg2011>span{color: white;position: absolute;top: 180px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-5>.bg2011>.tv{width: 235px;height: 135px;position: absolute;left: 58%;top: 80%;}
+.gg>.center>.panel-5>.bg2011>.tv>video{width: 100%;height: 100%;}
+.gg>.center>.panel-6{width: 100%;height: 953px;overflow: hidden;position: relative;}
+.gg>.center>.panel-6>.bg2008{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-6.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-6>.bg2008>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-6>.bg2008>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-6>.bg2008>span{color: white;position: absolute;top: 650px;left: 52%;line-height: 32px;}
+.gg>.center>.panel-7{width: 100%;height: 953px;overflow: hidden;position: relative;}
+.gg>.center>.panel-7>.bg2006{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-7.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-7>.bg2006>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-7>.bg2006>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-7>.bg2006>span{color: white;position: absolute;top: 480px;left: 52%;line-height: 32px;}
+.gg>.center>.panel-7>.bg2006>.img>img:nth-of-type(1){width: 250px;height: 160px;}
+.gg>.center>.panel-7>.bg2006>.img>img:nth-of-type(4){top: 270px;left: -13px;}
+.gg>.center>.panel-8{width: 100%;height: 918px;overflow: hidden;position: relative;}
+.gg>.center>.panel-8>.bg2005{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-8.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-8>.bg2005>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-8>.bg2005>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-8>.bg2005>span{color: white;position: absolute;top: 610px;left: 50%;line-height: 32px;}
+.gg>.center>.panel-8>.bg2005>.img>img:nth-of-type(2){width: 250px;height: 374px;}
+.gg>.center>.panel-9{width: 100%;height: 1040px;overflow: hidden;position: relative;}
+.gg>.center>.panel-9>.bg2003{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-9.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-9>.bg2003>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-9>.bg2003>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-9>.bg2003>span{color: white;position: absolute;top: 610px;left: 50%;line-height: 32px;}
+.gg>.center>.panel-9>.bg2003>.img>img:nth-of-type(2){width: 250px;height: 374px;}
+.gg>.center>.panel-10{width: 100%;height: 918px;overflow: hidden;position: relative;}
+.gg>.center>.panel-10>.bg2001-1{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-10.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-10>.bg2001-1>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-10>.bg2001-1>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-10>.bg2001-1>span{color: white;position: absolute;top: 500px;left: 50%;line-height: 32px;}
+.gg>.center>.panel-10>.bg2001-1>.img>img:nth-of-type(4){top: 270px;left: -13px;}
+.gg>.center>.panel-10>.bg2001-1>.img>img:nth-of-type(1){width: 250px;height: 160px;}
+.gg>.center>.panel-11{width: 100%;height: 1040px;overflow: hidden;position: relative;}
+.gg>.center>.panel-11>.bg2001-2{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-11.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-11>.bg2001-2>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-11>.bg2001-2>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-11>.bg2001-2>span{color: white;position: absolute;top: 620px;left: 50%;line-height: 32px;}
+.gg>.center>.panel-11>.bg2001-2>.img>img:nth-of-type(2){width: 250px;height: 374px;top: 70px;}
+.gg>.center>.panel-12{width: 100%;height: 1000px;overflow: hidden;position: relative;}
+.gg>.center>.panel-12>.bg2000-1{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-12.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-12>.bg2000-1>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-12>.bg2000-1>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-12>.bg2000-1>span{color: white;position: absolute;top: 550px;left: 50%; line-height: 32px;}
+.gg>.center>.panel-12>.bg2000-1>.img>img:nth-of-type(4){top: 270px;left: -13px;}
+.gg>.center>.panel-12>.bg2000-1>.img>img:nth-of-type(1){width: 250px;height: 160px;}
+.gg>.center>.panel-13{width: 100%;height: 918px;overflow: hidden;position: relative;}
+.gg>.center>.panel-13>.bg2000-2{width: 100%;height: 1100px;background-image: url(../img/kenzo-story/panel-bg-13.jpg);background-size: 100%;background-attachment: fixed;}
+.gg>.center>.panel-13>.bg2000-2>.img{width: 310px;height: 410px;position: absolute;top: 410px;left: 50%; }
+.gg>.center>.panel-13>.bg2000-2>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-13>.bg2000-2>span{color: white;position: absolute;top: 190px;left: 33%;line-height: 32px;}
+.gg>.center>.panel-14{width: 100%;height: 1300px;overflow: hidden;position: relative;}
+.gg>.center>.panel-14>.bg1996{width: 100%;height: 1500px;background-image: url(../img/kenzo-story/panel-bg-14.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-14>.bg1996>.img{width: 310px;height: 410px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-14>.bg1996>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-14>.bg1996>span{color: white;position: absolute;top: 850px;left: 53%; line-height: 32px;}
+.gg>.center>.panel-14>.bg1996>.img>img:nth-of-type(4){top: 460px;left: -13px;}
+.gg>.center>.panel-14>.bg1996>.img>img:nth-of-type(1){width: 250px;height: 374px;}
+.gg>.center>.panel-14>.bg1996>.img>img:nth-of-type(2){width: 250px;height: 374px;}
+.gg>.center>.panel-15{width: 100%;height: 728px;overflow: hidden;position: relative;overflow-y:scroll;}
+.gg>.center>.panel-15>.bg1991{width: 100%;height: 1250px;background-image: url(../img/kenzo-story/panel-bg-15.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-15>.bg1991>.img{width: 310px;height: 360px;position: absolute;top: 300px;left: 1000px;}
+.gg>.center>.panel-15>.bg1991>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-15>.bg1991>span{color: white;position: absolute;top: 190px;left: 30%;line-height: 32px;}
+.gg>.center>.panel-15>.bg1991>.img>img:nth-of-type(4){top: 450px;left: 0px; }
+.gg>.center>.panel-16{width: 100%;height: 1000px;overflow: hidden;position: relative;}
+.gg>.center>.panel-16>.bg1988{width: 100%;height: 1250px;background-image: url(../img/kenzo-story/panel-bg-16.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-16>.bg1988>.img{width: 310px;height: 360px;position: absolute;top: 190px;left: 30%;}
+.gg>.center>.panel-16>.bg1988>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-16>.bg1988>span{color: white;position: absolute;top: 600px;left: 900px;line-height: 32px;}
+.gg>.center>.panel-17{width: 100%;height: 1058px;overflow: hidden;position: relative;}
+.gg>.center>.panel-17>.bg1970{width: 100%;height: 1250px;background-image: url(../img/kenzo-story/panel-bg-17.jpg);background-size: 100%;background-attachment: fixed;background-position: center center; }
+.gg>.center>.panel-17>.bg1970>.img{width: 310px;height: 360px;position: absolute;top: 300px;left: 1000px;}
+.gg>.center>.panel-17>.bg1970>p{color: white;position: absolute;left: 48%;top: 80px;font-size: 40px;}
+.gg>.center>.panel-17>.bg1970>span{color: white;position: absolute;top: 190px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-17>.bg1970>#ppp{color: white;position: absolute;top: 710px;left: 32%;line-height: 32px;}
+.gg>.center>.panel-17>.bg1970>.img>img{width: 250px;height: 374px;}
+.sole{height: 197px;width: 100%;position: relative;top: 3px;background: #F3F3F3;}
+.sole>.con{padding-top: 20px;width: 567px;height: 88px;position: absolute;top: 60px;text-align: center;left: 35%;font-size: 12px;color: #303030;line-height: 25px;}
+.con>a{text-decoration:none;color: #303030;}
+
+
+

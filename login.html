@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="log">
+				<a href="index.html"><img src="img/log3.jpg" alt="" /></a>
+			</div>
+			<div class="two">
+				<div class="login">
+					<p>请使用TOPLIFE账号登录</p>
+					<span>若您已有京东账号，可使用京东账号直接登录</span><br />
+					<div class="in">
+						<input class="zhang" type="text" placeholder=" 支持 邮箱/用户名/已验证手机" /><img src="img/ren.jpg" alt="" />
+						<p></p>
+						<input class="mi" type="text" placeholder=" 密码" /><img src="img/suo.jpg" alt="" />
+						<input type="submit" value="登录" class="den" />
+						<div class="kong"></div>
+					</div>
+					<a href="https://www.toplife.com/help/findPassword">忘记密码？</a>
+				</div>
+				<img src="img/xian.jpg" alt="" />
+				<div class="register">
+					<p>新用户注册</p>
+					<span>注册成为TOPLIFE官网会员，下单流程更流畅，并可查看<br />您 的订单记录，追踪订单物流，第一时间获取最新资讯。</span><br />
+					<button><a href="register.html">立即注册</a></button>
+				</div>
+			</div>
+
+		</div>
+		<div class="top3">
+			<img src="img/a09.jpg" alt="" />
+			<p>ICP备11041704号-26|Copyright © 2018 TOPLIFE 版权所有经营证照</p>
+		</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript">
+	$(function() {
+		$("input").click(function() {
+			$(this).css("border-color", "greenyellow").siblings().css("border-color", "gainsboro")
+		})
+		$("button").mouseenter(function() {
+			$(this).css("background", "gainsboro")
+		}).mouseleave(function() {
+			$(this).css("background", "white")
+		})
+
+		var my = {
+			"userName": /^[1-9][0-9]{5,11}$/,
+			"userPass": /^\w{6,32}$/,
+			"checName": function(name) {
+				if(this.userName.test(name)) {
+					return 1;
+				} else {
+					return 0;
+				}
+			},
+			"checPass": function(pass) {
+				if(this.userPass.test(pass)) {
+					return 1;
+				} else {
+					return 0;
+				}
+			}
+		};
+
+		$(".den").click(function() {
+			var vaa = $(".zhang").val();
+			if(my.checName(vaa) == 0) {
+				document.querySelector(".in>p").innerText = "账号不符合规则 请重新输入";
+
+			} else {
+				window.location.href = "index.html";
+				document.querySelector(".in>p").innerText = "";
+
+			}
+			var vaa2 = $(".mi").val();
+			if(my.checName(vaa2) == 0) {
+				document.querySelector(".in>div").innerText = "密码是6~32位";
+
+			} else {
+				document.querySelector(".in>div").innerText = "";
+				window.location.href="index.html";
+			}
+
+			if(vaa == "") {
+				document.querySelector(".in>p").innerText = "请输入账号";
+			} else if(vaa2 == "") {
+				document.querySelector(".in>div").innerText = "请输入密码";
+			} else if(vaa == "" && vaa2 == "") {
+				document.querySelector(".in>p").innerText = "请先输入账号";
+			}
+		})
+
+	})
+</script>

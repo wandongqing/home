@@ -1,0 +1,145 @@
+.register{
+	width:600px;
+	height:500px;
+	position: absolute;
+	top:200px;
+	left:650px;
+	background: royalblue;
+	
+}
+input{
+	width:280px;
+	height:40px;
+}
+#di{
+	width:20px;
+	height:20px;
+}
+#getNum{
+	height:50px;
+	color: white;
+	font-size:18px;
+	background: tan;
+}
+#confirm{
+	width:400px;
+	height:50px;
+	background:#31BC47;
+	color:white;
+	font-size:25px;
+}
+table{
+	margin-left:100px;
+	margin-top:50px;
+}
+/*.register>img{
+	position: absolute;
+	left:100px;
+	top:50px;
+	font-size:20px;
+	letter-spacing: 5px;
+}
+
+.register>ul{
+	width:450px;
+	height:50px;
+	
+	position: absolute;
+	top:90px;
+	left:100px;
+	list-style: none;
+}
+ul>li{
+	width:150px;
+	height:20px;
+	float:left;
+	font-size:15px;
+	color:darkgray;
+}
+ul>li:first-child{
+	color:#31BC47;
+}
+
+
+input{
+	width:380px;
+	height:50px;
+	left:100px;
+	position: absolute;
+	top:180px;
+}
+
+.register>.in>p{
+	position: absolute;
+	width:300px;
+	height:30px;
+	top:240px;
+	left:100px;
+}
+button:nth-of-type(1){
+	width:380px;
+	height:50px;
+	left:100px;
+	position: absolute;
+	top:280px;
+	background:white;
+	border:1px solid black;
+}
+.register>.in>div{
+	position: absolute;
+	width:300px;
+	height:30px;
+
+	top:330px;
+	left:100px;
+	
+}
+.register>.in>#di{
+	width:20px;
+	height:20px;
+	left:100px;
+	position: absolute;
+	top:370px;
+	background:white;
+}
+.register>.in>font{
+	position: absolute;
+	width:350px;
+	height:30px;
+	font-size:13px;
+	top:370px;
+	left:130px;
+}
+.register>.in>font>span{
+	color:#0066CC;
+}
+button:nth-of-type(2){
+	width:380px;
+	height:50px;
+	left:100px;
+	position: absolute;
+	top:410px;
+	background:black;
+	color:white;
+	border:1px solid black;
+}*/
+
+.top3{
+	width:1900px;
+	height:100px;
+	background:#F5F5F5;
+	position: relative;
+	top:700px;	
+}
+.top3>img{
+	position: absolute;
+	left:900px;
+	top:20px;
+}
+.top3>p{
+	position: absolute;
+	left:1300px;
+	top:40px;
+	color:gray;
+	font-size:15px;
+}

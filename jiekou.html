@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>手机号码</td>
+				<td><input type="tel" id="tel" name="tel"/></td>
+				<td><button id="getNum">获取验证码</button></td>
+			</tr>
+			<tr>
+				<td>请输入验证码</td>
+				<td><input type="text" id="yzm" name="yzm"/></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<button id="confirm">确定</button>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+<script type="text/javascript" src="jquery-1.4.js" ></script>
+<script>
+	
+	$(function(){
+		//点击获取验证码按钮，获取到手机端短信
+		$("#getNum").click(function(){
+			 var tel=$("#tel").val();
+			  /* $.post("AAA.html","userTel="+tel+"",function(){
+			  	    
+			  }) */
+			 // 测试：120.237.120.246:6777
+			 // uat生产：120.237.120.246:6778
+			  var url = "http://120.237.120.246:6777/stu_sms/basicFrameWork!sendAuthCode.action";
+			  var data = {"telephone" : tel};
+			  $.post(url, data, function(result) {
+				  //alert();
+			  });
+		})
+		$("#confirm").click(function(){
+			//向服务器端发送验证码，验证
+			 var ac=$("#yzm").val();
+			 var tel=$("#tel").val();
+			 var url = "http://120.237.120.246:6777/stu_sms/basicFrameWork!authCode.action";
+			 var data = {"telephone" : tel,"authCode":ac};
+			  /* $.post("AAA.html","userTel="+tel+"",function(){
+			  	    
+			  }) */
+			 $.post(url, data, function(result) {
+			 	    console.log(result.codeDesc)
+				  //alert();
+			  });
+		})
+	})
+	
+//	$(function(){
+//		//点击获取验证码按钮，获取到手机端短信
+//		$("#getNum").click(function(){
+//			 var tel=$("#tel").val();
+//			 var Url="";
+//			 var data={
+//			 	userTel:tel
+//			 }
+//			  $.post(Url,data,function(){
+//			  	    
+//			  })
+//		})
+//		$("#confirm").click(function(){
+//			//向服务器端发送验证码，验证
+//			 var yzm=$("#yzm").val();
+//			 var Url="";
+//			 var data={
+//			 	  userYzm:yzm
+//			 }
+//			  $.post(Url,data,function(){
+//			  	    
+//			  })
+//		})
+		
+		
+		
+		
+		
+//	})
+</script>

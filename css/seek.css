@@ -1,0 +1,56 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.box{
+	width:1900px;
+	height:800px;
+	opacity: .5;
+	margin:0 auto;
+	
+	
+}
+.box>.log{
+	width:50px;
+	height:50px;
+	background:red;
+	position: relative;
+	left:900px;
+	top:100px;
+	
+}
+.box>.inpt{
+	width:1000px;
+	height:50px;
+	background:red;
+	position: absolute;
+	top:500px;
+	left:500px;
+	border-bottom: 1px solid gray;
+	
+}
+.box>.inpt>input{
+	width:1000px;
+	height:50px;
+	padding-left:30px ;
+	border:none;
+	outline: none;
+}
+.box>.inpt>a{
+	padding-left:950px ;
+	position: relative;
+	top:-45px;
+}
+.box1>a{
+	position: relative;
+	top:-500px;
+	left:1400px;
+	transform: rotate(0deg);
+	transition: transform  linear 1s;
+}
+.box1>a:hover>img{
+	transform: rotate(360deg);
+	transition: transform  linear 0.5s;
+}
